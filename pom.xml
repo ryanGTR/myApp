@@ -13,7 +13,6 @@
   <!-- Specify the JDK builder image used to build your application. -->
   <!-- Use OpenJDK 8 and OpenJDK 11-based images. OracleJDK-based images are not supported. -->
   <properties>
-    <fabric8.generator.from>registry.redhat.io/openjdk/openjdk-8-rhel8:latest</fabric8.generator.from>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
     <jkube.version>1.10.1</jkube.version>
